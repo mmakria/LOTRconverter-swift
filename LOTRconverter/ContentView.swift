@@ -9,13 +9,42 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        ZStack{
+            //Background image
+            VStack{
+                //pony image
+                //Currency exchange text
+                //conversion section
+                HStack{
+                    //left conversion section
+                    VStack{
+                        //currency
+                        HStack{
+                            //currency image
+                            
+                            //currency text
+                            
+                        }
+                        //text field
+                        
+                    }
+                    //equal sign
+                    //right conversion section
+                    VStack{
+                        //currency
+                        HStack{
+                            //currency image
+                            
+                            //currency text
+                            
+                        }
+                        //text field
+                        
+                    }
+                }
+                //buton
+            }
         }
-        .padding()
     }
 }
 
